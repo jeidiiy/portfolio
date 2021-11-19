@@ -9,7 +9,7 @@ const Header = () => {
         <div className="header-wrapper">
           <Fade bottom>
             <h2>
-              Hi, I'm {data.name}{" "}
+              안녕하세요, 저는 {data.name} 입니다.{" "}
               <span role="img" aria-label="Emoji">
                 👋
               </span>
@@ -27,12 +27,6 @@ const Header = () => {
                 {data.headerTagline[1]
                   ? data.headerTagline[1]
                   : "products, brands"}
-              </h1>
-              <h1>
-                {" "}
-                {data.headerTagline[2]
-                  ? data.headerTagline[2]
-                  : "and experience"}
               </h1>
             </div>
           </Fade>

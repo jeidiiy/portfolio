@@ -1,15 +1,16 @@
 // Skills Icons
-import htmlIcon from "./images/html.svg"
-import cssIcon from "./images/css.svg"
 import reactIcon from "./images/react.svg"
+import reduxIcon from "./images/redux.svg"
 import jsIcon from "./images/javascript.svg"
-import designIcon from "./images/design.svg"
-import codeIcon from "./images/code.svg"
+import springIcon from "./images/spring.svg"
+import javaIcon from "./images/java.svg"
+import mysqlIcon from "./images/mysql.svg"
+import gitIcon from "./images/git.svg"
+import slackIcon from "./images/slack.svg"
+import blogIcon from './images/blogger.svg'
 
 // Social Icon
 import githubIcon from "./images/github.svg"
-import codepenIcon from "./images/codepen.svg"
-import dribbbleIcon from "./images/dribbble.svg"
 import instagramIcon from "./images/instagram.svg"
 
 export default {
@@ -17,21 +18,21 @@ export default {
   //Change The Website Template
 
   //   Header Details ---------------------
-  name: "chetan",
+  name: "정지용",
   headerTagline: [
     //Line 1 For Header
-    "Building digital",
+    "배우며 발전하는 것에",
     //Line 2 For Header
-    "products, brands,",
+    "재미를 느끼는 백엔드 개발자입니다.",
     //Line 3 For Header
-    "and experience",
+    // "입니다.",
   ],
   //   Header Paragraph
   headerParagraph:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
+    "언제나 겸손한 자세로 성장하며 꼼꼼한 성격으로 완성도 높은 결과물을 내도록 노력합니다.",
 
   //Contact Email
-  contactEmail: "hello@chetanverma.com",
+  contactEmail: "wldyd2356@gmail.com",
 
   // End Header Details -----------------------
 
@@ -113,13 +114,13 @@ export default {
 
   // About Secton --------------
   aboutParaOne:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    "저만의 속도로 지치지 않고 꾸준히 성장하고 있는 개발자 정지용입니다.",
   aboutParaTwo:
-    "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-  aboutParaThree:
-    "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "제 뇌의 기억보다 한땀한땀 써내려간 기록을 믿습니다. 소스 코드를 작성하면 깃허브에, 정리하고자 하는 내용은 개인 노션과 블로그에 작성하고 있습니다.",
+  aboutParaThree: "신입의 입장으로서 신기술을 좇기보다 기본기를 갖추려 노력합니다. ",
+  aboutParaFour: "코틀린, 도커, MSA, 그리고 젠킨스에 흥미가 있습니다. 향후에 꼭 배워보고 싶습니다.",
   aboutImage:
-    "https://images.unsplash.com/photo-1519713958759-6254243c4a53?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
+    "https://avatars.githubusercontent.com/u/57584529?s=400&u=5d114187fc45fa5829a39521e9bd0ce06f00bcd7&v=4",
 
   //   End About Section ---------------------
 
@@ -129,34 +130,38 @@ export default {
 
   skills: [
     {
-      img: htmlIcon,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+      img: javaIcon,
+      para: "객체 지향 언어 중 가장 유서가 깊은 자바 언어를 주로 사용합니다.",
     },
     {
-      img: cssIcon,
+      img: springIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "자바 진영의 대표적인 백엔드 프레임워크인 스프링을 기반으로 개발합니다. 그리고 자바 진영 표준 ORM인 JPA를 함께 사용합니다.",
+    },
+    {
+      img: mysqlIcon,
+      para: "DBMS 중 대중적으로 사용 중인 MySQL을 주로 다룹니다.",
     },
     {
       img: jsIcon,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+      para: "웹 개발의 근간이 되는 자바스크립트를 사용합니다. ",
     },
     {
       img: reactIcon,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+      para: "프론트엔드의 SPA 라이브러리로 리액트를 애용합니다.",
     },
     {
-      img: designIcon,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+      img: reduxIcon,
+      para: "상태 관리 라이브러리로 널리 사용 중인 리덕스를 사용합니다.",
     },
     {
-      img: codeIcon,
+      img: gitIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "버전 관리 시스템으로 개발자들이 가장 많이 사용하는 Git을 사용합니다.",
+    },
+    {
+      img: slackIcon,
+      para: "커뮤니케이션으로 개발자 친화적인 슬랙을 사용합니다.",
     },
   ],
 
@@ -174,19 +179,14 @@ export default {
   contactSubHeading: "Let's create your next experience together",
   social: [
     // Add Or Remove The Link Accordingly
-    { img: githubIcon, url: "https://github.com/chetanverma16" },
     {
-      img: codepenIcon,
-      url: "https://www.codepen.com/",
+      img: githubIcon,
+      url: "https://github.com/wscrg",
     },
     {
-      img: dribbbleIcon,
-      url: "https://dribbble.com/chetanverma",
-    },
-    {
-      img: instagramIcon,
-      url: "https://www.instagram.com/",
-    },
+      img: blogIcon,
+      url: "https://somuchthings.tistory.com"
+    }
   ],
 
   // End Contact Section ---------------
